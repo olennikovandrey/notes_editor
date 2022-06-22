@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./note.sass";
 import * as functions from "../../services/functions";
 import React from "react";
