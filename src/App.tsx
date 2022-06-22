@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Note from "./components/Note/Note";
 import Form from "./components/Form/Form";
 import React, { Component } from "react";
@@ -6,7 +7,7 @@ type AppState = {
   notesData: [[
     title: string,
     content: string,
-    tags: RegExpMatchArray
+    tags: string[]
   ]] | any[]
   searchingTagValue: string
 }
