@@ -71,7 +71,7 @@ const Form: React.FC<FormTypes> = (props) => {
       </form>
       <div>
         <input
-          placeholder="Найти заметку по тегу"
+          placeholder="Найти заметку по тегу (#тест)"
           ref={ input3 }
           onChange={ (event) => setTagSearchValue(event.target.value) }
           onKeyDown={ (event) => findTagByEnter(event) }
